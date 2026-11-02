@@ -1,6 +1,6 @@
 # Third-party materials
 
-The npm dependencies retain their upstream licenses: Three.js (MIT) and MediaPipe Tasks Vision (Apache2.0). Install with `npm ci` to use the pinned versions; package licenses are included in their installed packages.
+The npm dependencies retain their upstream licenses: Three.js (MIT) and MediaPipe Tasks Vision (Apache 2.0). Install with `npm ci` to use the pinned versions; package licenses are included in their installed packages.
 
 The pretrained MediaPipe Hand Landmarker model is distributed by Google. Source URL and SHA-256 are in [the model notes](assets/models/README.md). Chumi did not train this model.
 

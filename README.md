@@ -6,6 +6,8 @@ Chumi is a purple 3D companion that Twitch viewers can feed through chat. The st
 
 The image above is generated concept artwork. [Character preview](documentation/images/character-preview.png) is an actual app screenshot from an earlier UI revision.
 
+![Current local application preview](documentation/images/app-preview.png)
+
 ## Requirements
 
 - Node.js 22 or newer and npm.

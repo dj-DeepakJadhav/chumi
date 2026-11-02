@@ -16,3 +16,6 @@ CLAUDE.md
 .codex/
 .agents/
 archive/
+
+# Local diagram validation receipts
+documentation/*.json

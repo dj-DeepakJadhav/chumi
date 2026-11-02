@@ -4,6 +4,8 @@
 
 - `images/chumi-concept.png`: generated promotional artwork, not captured app output.
 - `images/character-preview.png`: actual character-preview screenshot from an earlier UI revision; no webcam or account credentials.
+- `images/app-preview.png`: current camera-off application screenshot from the clean export.
+- `images/interaction-completed.png`: local surprise completion feedback; this does not show the gift reveal or live Twitch delivery.
 
 ## Captures to make on the recording machine
 
