@@ -2,6 +2,8 @@
 
 Chumi is a purple 3D companion that Twitch viewers can feed through chat. The streamer offers an open palm; Chumi hops onto it, eats a star and returns home. Surprise and cheer commands play separate animations.
 
+[Watch the demo video](https://youtu.be/QaMRDGCyrWg)
+
 ![Chumi promotional concept artwork](documentation/images/chumi-concept.png)
 
 The image above is generated concept artwork. [Character preview](documentation/images/character-preview.png) is an actual app screenshot from an earlier UI revision.
