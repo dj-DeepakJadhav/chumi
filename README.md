@@ -121,6 +121,21 @@ The 35 tests cover interaction completion/cancellation, camera cleanup, tracking
 
 GitHub provides source download and a test workflow, not a hosted Twitch backend. Run this project locally using the steps above. A public multi-user hosted service would need different authentication and deployment controls.
 
+## Architecture
+
+The interactive architecture diagram was generated with [Archify](https://github.com/tt-a1i/archify) from repository source references. Archify's automated schema, artifact and browser checks passed.
+
+```mermaid
+flowchart LR
+    T[Twitch chat / EventSub] --> N[Local Node server and queue]
+    N -->|SSE state| C[Private camera controller]
+    W[Webcam] -->|Local frames| C
+    C -->|Canvas MediaStream| B[Broadcast popup]
+    B -->|Window capture| O[OBS Studio]
+```
+
+Read the [architecture notes](documentation/ARCHITECTURE.md), or download [the interactive Archify diagram](documentation/architecture.html) and open it locally. GitHub renders the Mermaid overview above; it displays the HTML file as source.
+
 ## Documentation
 
 - [Architecture](documentation/ARCHITECTURE.md)
