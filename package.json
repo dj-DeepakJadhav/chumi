@@ -1,0 +1,20 @@
+{
+  "name": "chat-came-over",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "controller": "node scripts/controller.mjs",
+    "twitch:auth": "node scripts/twitch.mjs auth",
+    "twitch:listen": "node scripts/twitch.mjs listen",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "1.2.0",
+    "three": "0.187.0"
+  },
+  "description": "Chumi: a Twitch chat companion with local webcam palm tracking."
+}
